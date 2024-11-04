@@ -1,0 +1,17 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+input, button {
+  font-size: 16px;
+}

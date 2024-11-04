@@ -1,0 +1,59 @@
+/* Playlists.css */
+
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.playlist-card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.playlist-card:hover {
+    transform: scale(1.05);
+}
+
+/* Название плейлиста */
+.playlist-card-name {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+/* Кнопка удаления внутри квадрата */
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
